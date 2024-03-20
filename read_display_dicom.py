@@ -11,7 +11,7 @@ def display_dicom_image(dicom_file_path,new_image_name):
     plt.axis('off')
     plt.show()
 
-    plt.imsave(new_image_name, pixel_data,cmap=plt.colormaps['gray'])
+    plt.imsave(new_image_name, pixel_data, cmap=plt.colormaps['gray'])
 
 
 display_dicom_image('image-000001.dcm', 'image1.png')
